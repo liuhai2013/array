@@ -5,6 +5,7 @@
  * Date: 18/3/17
  * Time: 下午3:11
  */
+/*******第一题＊＊＊＊＊＊＊＊／
 $items = array(
     array('http://www.abc.com/a/', 100, 120),
     array('http://www.abc.com/b/index.php', 50, 80),
@@ -31,7 +32,7 @@ function arr1($items) {
 
 
 //print_r(arr1($items));
-
+/*****************第二题*************************/
 $arr2 = [1, 2, 4, 5, 6, 8];
 function king($arr2, $m) {
     $i = 0;
@@ -48,7 +49,7 @@ function king($arr2, $m) {
         next($arr2);
     }
 }
-
+/****************第三题 ************************/
 $commits= 'A,B,B,A,C,C,D,A,B,C,D,C,C,C,D,A,B,C,D,A';
 $answers= 'A,A,B,A,D,C,D,A,A,C,C,D,C,D,A,B,C,D,C,D';
 function score($commits, $answers) {
@@ -56,7 +57,7 @@ function score($commits, $answers) {
     return count($diff)*5;
 }
 
-
+/**************第四题****************/
 function logs() {
     $content = file_get_contents('php://input');
     $arr = explode("\n", $content);
@@ -65,7 +66,7 @@ function logs() {
     file_put_contents('log.txt', var_export($data));
 }
 
-
+/************第八题***************/
 $str = 'hello world';
 function str($str) {
     $strArr = str_split($str);
@@ -76,7 +77,7 @@ function str($str) {
     return $newStr;
 }
 
-
+/******************第五题****************/
 /**
  * 实现 ArrayAccess 接口使对象可以像数组一样被访问
  */
@@ -135,7 +136,7 @@ class Configuration implements ArrayAccess
 
 $config = Configuration::instance();
 $config["firstName"];
-
+/************************第7⃣️题***************/
 /**
  * Created by PhpStorm.
  * User: feiyi
