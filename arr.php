@@ -5,7 +5,7 @@
  * Date: 18/3/17
  * Time: 下午3:11
  */
-/*******第一题＊＊＊＊＊＊＊＊／
+/*******第一题************／
 $items = array(
     array('http://www.abc.com/a/', 100, 120),
     array('http://www.abc.com/b/index.php', 50, 80),
